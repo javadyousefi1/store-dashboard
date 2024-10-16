@@ -1,7 +1,7 @@
 // rrrd
 import { Outlet } from "react-router-dom";
 // ui kit
-import LandingLayout from "global/layout/PanelLayout";
+import LandingLayout from "../../layout/LandingLayout";
 // layoyut component
 import Header from "./Header";
 import Footer from "./Footer";

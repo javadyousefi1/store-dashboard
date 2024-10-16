@@ -10,7 +10,7 @@ function App() {
   return (
     // <ProtectedRouteWrapper>
       <RouterProvider router={router} />
-    {/* </ProtectedRouteWrapper> */}
+    // </ProtectedRouteWrapper>
   )
 }
 

@@ -1,7 +1,7 @@
 // pages
 import Home from "./ui/home/Home";
-import News from "./ui/news/News";
-import NewsDetail from "./ui/news/NewsDetail";
+// import News from "./ui/news/News";
+// import NewsDetail from "./ui/news/NewsDetail";
 // error page
 import ErrorPage from "../errors/ErrorPage";
 // main page
@@ -15,14 +15,6 @@ export const landingRoutes = {
     {
       path: "",
       element: <Home />,
-    },
-    {
-      path: "news/:id",
-      element: <NewsDetail />,
-    },
-    {
-      path: "news",
-      element: <News />,
     },
   ],
 };

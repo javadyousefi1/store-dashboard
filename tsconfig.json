@@ -1,7 +1,87 @@
 {
-  "files": [],
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "global/*": [
+        "ant-design/*"
+      ],
+      "api": [
+        "src/api/"
+      ],
+      "api/*": [
+        "src/api/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "enums": [
+        "src/enums/"
+      ],
+      "enums/*": [
+        "src/enums/*"
+      ],
+      "types": [
+        "src/types/"
+      ],
+      "types/*": [
+        "src/types/*"
+      ],
+      "interfaces": [
+        "src/interfaces/"
+      ],
+      "interfaces/*": [
+        "src/interfaces/*"
+      ],
+      "utils": [
+        "src/utils/"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+      "assets": [
+        "src/assets/"
+      ],
+      "assets/*": [
+        "src/assets/*"
+      ],
+      "shared": [
+        "./src/components/shared"
+      ],
+      "shared/*": [
+        "./src/components/shared*"
+      ],
+    },
+  },
+  "include": [
+    "src",
+  ],
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    {
+      "path": "./tsconfig.node.json"
+    }
   ]
 }
