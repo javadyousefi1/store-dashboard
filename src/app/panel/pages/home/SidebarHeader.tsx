@@ -15,7 +15,7 @@ import { useSelector } from "react-redux";
 // react hot toast
 import toast from "react-hot-toast";
 // component
-import IconifyComp from "@/components/shared/IconifyComp";
+import IconifyComp from "../../../../components/shared/IconifyComp";
 
 const SidebarHeader: React.FC<{ collapsed: boolean }> = ({ collapsed }) => {
   const { userData } = useSelector((state) => state?.usersSlice);
@@ -35,9 +35,13 @@ const SidebarHeader: React.FC<{ collapsed: boolean }> = ({ collapsed }) => {
     setIsFullScreen(!isFullScreen);
   };
 
+  function logOutCurrentUser () {
+
+  }
+
   const handleLogout = () => {
     const loading = toast.loading("در حال خروج از حساب...");
-    // logOutCurrentUser()
+    logOutCurrentUser()
       .then(() => {
         toast.success("با موفقیت از حساب خود خارج شدید");
         setTimeout(() => {

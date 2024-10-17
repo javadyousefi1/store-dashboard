@@ -4,7 +4,8 @@ import { createBrowserRouter } from "react-router-dom";
 // routes
 import { landingRoutes } from "../app/landing/Landing.routes";
 import { LoginRoutes } from "../app/login/Login.routes";
+import { panelRoutes } from "../app/panel/routes/panel.routes";
 
-const router = createBrowserRouter([landingRoutes, LoginRoutes]);
+const router = createBrowserRouter([panelRoutes, LoginRoutes]);
 
 export default router;

@@ -1,8 +1,8 @@
 import { useState } from "react";
 // componetns
-import PageHeader from "global/shared/PageHeader";
+import PageHeader from "../../../../components/shared/PageHeader";
 
-import PageTitle from "global/shared/PageTitle";
+import PageTitle from "../../../../components/shared/PageTitle";
 
 const Home = () => {
  

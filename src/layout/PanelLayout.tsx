@@ -7,7 +7,7 @@ import {
   useState,
   useCallback,
 } from "react";
-import Menu from "antd";
+import Menu from "antd/lib/menu";
 import Layout from "antd/lib/layout";
 const { Header, Content, Footer, Sider } = Layout;
 import { Breadcrumb, theme } from "antd";

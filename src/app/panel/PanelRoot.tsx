@@ -1,6 +1,6 @@
 import { useState } from "react";
 // layout
-import PanelLayout from "@/layout/PanelLayout";
+import PanelLayout from "../../layout/PanelLayout";
 import SidebarHeader from "./pages/home/SidebarHeader";
 import { mainPanelList } from "./menus";
 

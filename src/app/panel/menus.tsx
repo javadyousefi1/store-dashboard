@@ -1,4 +1,4 @@
-import IconifyComp from "@/components/shared/IconifyComp";
+import IconifyComp from "../../components/shared/IconifyComp";
 
 export const mainPanelList = [
   {

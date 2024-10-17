@@ -1,5 +1,5 @@
-import { IconType, IconSize } from "@/types/icon";
-import { icons, iconSize } from "@/constant/iconify";
+import { IconType, IconSize } from "../../types/icon";
+import { icons, iconSize } from "../../constant/iconify";
 
 interface IProps {
   icon: IconType;
