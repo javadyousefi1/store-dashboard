@@ -4,14 +4,14 @@ const loginUrl = import.meta.env.VITE_APP_LOGIN_URL;
 // antd
 import { Divider } from "antd";
 // global features
-import Tooltip from "global/antd-kit/tooltip";
-import Popconfirm from "global/antd-kit/popconfirm";
+import Tooltip from "antd/lib/tooltip";
+import Popconfirm from "antd/lib/popconfirm";
 // react
 import { useState } from "react";
 // redux
 import { useSelector } from "react-redux";
 // api
-import { logOutCurrentUser } from "@/api/auth";
+// import { logOutCurrentUser } from "@/api/auth";
 // react hot toast
 import toast from "react-hot-toast";
 // component
@@ -37,7 +37,7 @@ const SidebarHeader: React.FC<{ collapsed: boolean }> = ({ collapsed }) => {
 
   const handleLogout = () => {
     const loading = toast.loading("در حال خروج از حساب...");
-    logOutCurrentUser()
+    // logOutCurrentUser()
       .then(() => {
         toast.success("با موفقیت از حساب خود خارج شدید");
         setTimeout(() => {

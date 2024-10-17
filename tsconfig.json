@@ -26,9 +26,6 @@
       "@/*": [
         "src/*"
       ],
-      "global/*": [
-        "ant-design/*"
-      ],
       "api": [
         "src/api/"
       ],

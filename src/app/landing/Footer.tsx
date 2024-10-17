@@ -1,5 +1,4 @@
-import logo from "@/assets/images/full-logo.png";
-import Tag from "global/antd-kit/tag";
+
 
 const Footer = () => {
   return (

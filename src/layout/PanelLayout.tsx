@@ -7,13 +7,13 @@ import {
   useState,
   useCallback,
 } from "react";
-import Menu from "global/antd-kit/menu";
-import Layout from "../antd-kit/layout";
+import Menu from "antd";
+import Layout from "antd/lib/layout";
 const { Header, Content, Footer, Sider } = Layout;
 import { Breadcrumb, theme } from "antd";
 import { useLocation, useNavigate } from "react-router-dom";
-import Drawer from "global/antd-kit/drawer";
-import Tooltip from "global/antd-kit/tooltip";
+import Drawer from "antd/lib/drawer";
+import Tooltip from "antd/lib/tooltip";
 import { Outlet } from "react-router-dom";
 
 const findObjectByKey = (menuList, key, foundKey = "key") => {
