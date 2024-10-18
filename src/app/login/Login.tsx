@@ -9,13 +9,13 @@ const Login: React.FC = () => {
   return (
     <main className="flex w-full h-full">
 
-      <section className="bg-white w-[35%] flex justify-center items-center flex-col">
+      <section className="bg-white w-full lg:w-[40%] flex justify-center items-center flex-col">
         <LoginHeader />
         <LoginForm />
       </section>
 
-      <section className="flex items-center justify-center w-full h-full bg-[#fafafa]">
-        <img src={LoginImg} alt="login-img" className="md:w-[500px] w-[300px] lg:w-[800px]" />
+      <section className=" items-center justify-center w-full h-full bg-[#fafafa] lg:flex hidden">
+        <img src={LoginImg} alt="login-img" className="lg:w-[500px] w-[300px] lg:w-[800px]" />
       </section>
     </main>
   );

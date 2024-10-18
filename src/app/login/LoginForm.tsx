@@ -15,7 +15,7 @@ const LoginForm = () => {
         form={form}
         onFinish={onFinish}
         layout="vertical"
-        className="mt-10 w-[348px]"
+        className="mt-10 w-[300px] lg:w-[348px] lg:px-2"
     >
         <Form.Item<FieldTypeForm>
             label={"Email Address"}
@@ -44,7 +44,7 @@ const LoginForm = () => {
             //     mutationUpdateCategory.isPending
             // }
             >
-                Login
+                Log in
             </Button>
     </Form>);
 }
