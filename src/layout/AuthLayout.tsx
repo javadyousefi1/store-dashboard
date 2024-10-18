@@ -1,15 +1,13 @@
 import { ReactNode } from "react";
 
-const CenterLayout: React.FC<{
+const AuthLayout: React.FC<{
   children: ReactNode;
 }> = ({ children }) => {
   return (
     <div
       style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
         height: "100dvh",
+        width:"100%"
       }}
     >
       {children}
@@ -17,4 +15,4 @@ const CenterLayout: React.FC<{
   );
 };
 
-export default CenterLayout;
+export default AuthLayout;
