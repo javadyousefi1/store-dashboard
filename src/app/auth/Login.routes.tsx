@@ -1,7 +1,7 @@
 import ErrorPage from "../errors/ErrorPage"
 import Auth from "./Auth"
-import Login from "./Login"
-import Signup from "./Signup"
+import Login from "./login/Login"
+import Signup from './signUp/Signup';
 
 export const LoginRoutes = {
   path: "/auth",

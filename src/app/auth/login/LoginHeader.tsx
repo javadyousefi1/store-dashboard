@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/logo/logo.png"
+import Logo from "./../../../assets/images/logo/logo.png"
 const LoginHeader = () => {
     return (<div className="flex flex-col items-center justify-center">
         <img alt="logo" src={Logo} className="size-[92px]" />

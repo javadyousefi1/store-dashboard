@@ -1,5 +1,5 @@
 import React from "react";
-import LoginImg from "../../assets/images/auth/login.png"
+import LoginImg from "../../../assets/images/auth/login.png"
 import LoginHeader from "./LoginHeader";
 import LoginForm from "./LoginForm";
 const Login: React.FC = () => {
@@ -15,7 +15,7 @@ const Login: React.FC = () => {
       </section>
 
       <section className=" items-center justify-center w-full h-full bg-[#fafafa] lg:flex hidden">
-        <img src={LoginImg} alt="login-img" className="lg:w-[500px] w-[300px] lg:w-[800px]" />
+        <img src={LoginImg} alt="login-img" className="md:w-[500px] w-[300px] lg:w-[800px]" />
       </section>
     </main>
   );
