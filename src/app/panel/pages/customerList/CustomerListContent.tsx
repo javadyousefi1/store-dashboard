@@ -5,11 +5,11 @@ const CustomerListContent :React.FC<{ users: itemType }> = ({users, columnTitle}
   return (
     <>
         {/* column */}
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center px-5">
           {columnTitle.map((item) => (
-            <div key={item} className="flex justify-center items-center gap-x-4">
-            <span>{item}</span>
-            <IconifyComp icon="boldArrowDown" size="small"/>
+            <div key={item} className="w-40 flex justify-start items-center gap-x-2">
+            <span className="text-[12px] text-text-color-text-dark">{item}</span>
+            {item !== '' && <IconifyComp icon="boldArrowDown" size="small"/>}
             </div>
           ))}
         </div>

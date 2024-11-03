@@ -54,6 +54,12 @@ export default {
         "gray-icon": "var(--gray-icon)",
         "gray-light-icon": "var(--gray-light-icon)",
 
+        // text
+        "text-color-bg": "var(--color--bg)",
+        "text-gray-icon": "var(--gray-icon)",
+        "text-gray-light-icon": "var(--gray-light-icon)",
+        "text-color-text-dark": "var(--color-text-dark)",
+
         // secondary color
         secondary: "var(--color-secondary)",
         "secondary-bg": "var(--color-secondary-bg)",

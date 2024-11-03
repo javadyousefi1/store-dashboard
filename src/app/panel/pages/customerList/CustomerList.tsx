@@ -65,7 +65,7 @@ const CustomerList = () => {
       />
 
       <CustomerListContent users={users} 
-      columnTitle={['Name', 'Email', 'PhoneNumber', 'Gender']}
+      columnTitle={['Name', 'Email', 'PhoneNumber', 'Gender', '']}
       />
     </>
   );
