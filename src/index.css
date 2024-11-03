@@ -2,52 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
-  --color-primary: #20588d;
-  --color-primary-hover: #163E63;
-  --color-primary-5: #f8f4fb;
-  --color-primary-lightBorder: #e2ccf4;
-  --color-primary-light-bg: #eaeefb;
-  --color-primary-5: #f2e9f9;
-  --color-primary-50: #eee2f9;
-  --color-secondary: #007ea7;
-  --color-secondary-bg: #effbff;
-  --color-secondary-hover: #006788;
-  --color-primary_bg: #f6effb;
-  --color-middle-border: #e4e4e4;
-  --color-secondary-lightHoverBg: #f6effb;
-  --color-low-border: #f0f0f0;
-  --color-light-border: #fafafa;
-  --color-secondary-lightBorder: #d9f1f9;
-  --color-primary-100: #e2ccf4;
-  --color-main-background: #ffffff;
-  --color-main-text: #111111;
-  --color-secondary-text: #717888;
-  --color-text-grade3: #767676;
-  --color-primarySidebarBg: #faf8fc;
-  --color-primary-light-select-bg: #f3eafb;
-  --color-primary-sidebar-bg: #faf8fc;
-  --color-text-grade2: #444444;
-  --color-low-border-bg: #f2f2f2;
-  --color-text-placeholder: #bdbdbd;
+  /* Primary Colors */
+  --color-primary: #605bff;
+  --color-primary-bg: #EFEFFF;
+
+  /* background */
+  --color--bg: #FAFAFB;
+  --gray-icon: #9A9AA9;
+  --gray-light-icon: #CDCCD4;
+
+  /* Secondary Colors */
+  --color-secondary: #ff8f6b;
+  --color-secondary-bg: #fff4f0;
+
+  /* Icon and first Colors */
+  --color-first-blue: #5b93ff;
+  --color-first-blue-light: #eff4ff;
+
+  /* Icon and second Colors */
+  --color-second-blue: #26C0E2;
+  --color-second-blue-light: #E9F9FC;
+
+  /* Highlight Colors */
+  --color-highlight-yellow: #ffc327;
+  --color-highlight-yellow-light: #fff7e1;
+
+  /* status */
+  --color-error: #e71d36;
+  --color-error-light: #fef4f5;
+  --color-error-second-light: #FF6A77;
+
+
+  --color-success: #3a974c;
+  --color-success-light: #ebf5ed;
 
   --font-size-sm: 0.8rem;
-    --font-size-base: 1rem;
-    --font-size-lg: 1.125rem;
-    --font-size-xl: 1.25rem;
-    --font-size-2xl: 1.5rem;
-    --font-size-3xl: 1.875rem;
-    --font-size-4xl: 2.25rem;
-    --font-size-5xl: 3rem;
-    --font-size-6xl: 4rem;
-    --font-size-7xl: 5rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 4rem;
+  --font-size-7xl: 5rem;
 
-    --icon--sm: 16px;
-    --icon--base: 20px;
-    --icon--lg: 24px;
-    --icon-xl: 32px;
-    --icon-2xl: 40px;
+  --icon--sm: 16px;
+  --icon--base: 20px;
+  --icon--lg: 24px;
+  --icon-xl: 32px;
+  --icon-2xl: 40px;
 }
 
 @layer components {

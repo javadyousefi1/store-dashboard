@@ -47,44 +47,34 @@ export default {
       colors: {
         // primary color
         primary: "var(--color-primary)",
-        "primary-5": "var(--color-Primary_5)",
-        "primary-25": "var(--color-Primary_25)",
-        "primary-50": "var(--color-primary-50)",
-        "primary-100": "var(--color-primary-100)",
-        "primary-light-select-bg": "var(--color-primary-light-select-bg)",
-        "primary-sidebar-bg": "var(--color-primary-sidebar-bg)",
-        "primary-hover": "var(--color-primary-hover)",
-        "primary-lightBorder": "var(--color-primary-lightBorder)",
-        "--color-primarySidebarBg": "var(--color-primarySidebarBg)",
+        "primary-bg": "var(--color-primary-bg)",
+        
+        // background
+        "color-bg": "var(--color--bg)",
+        "gray-icon": "var(--gray-icon)",
+        "gray-light-icon": "var(--gray-light-icon)",
 
         // secondary color
         secondary: "var(--color-secondary)",
-        "secondary-hover": "var(--color-secondary-hover)",
-        "secondary-lightHoverBg": "var(--color-secondary-lightHoverBg)",
         "secondary-bg": "var(--color-secondary-bg)",
-        "secondary-lightBorder": "var(--color-secondary-lightBorder)",
-        "secondary-text": "#717888",
 
-        // main
-        "main-bg": "var(--color-main-background)",
-        "main-red": "#ef4444",
-        "main-text": "var(--color-main-text)",
-        "main-purple": "#5A2187",
-        "main-border": "#E4E4E4",
+        // first blue
+        "first-blue": "var(--color-first-blue)",
+        "first-blue-light": "var(--color-first-blue-light)",
 
-        // text
-        "text-primary": "var(--color-text-primary)",
-        "text-grade3": "var(--color-text-grade3)",
-        "text-placeholder": "var(--color-text-placeholder)",
-        "text-grade2": "var(--color-text-grade2)",
+        // second blue
+        "second-blue": "var(--color-second-blue)",
+        "second-blue-light": "var(--color-second-blue-light)",
 
-        // light color
-        "middle-border": "var(--color-middle-border)",
-        "primary-light-bg": "var(--color-primary-light-bg)",
-        "low-border": "var(--color-low-border)",
-        "light-border": "var(--color-light-border)",
-        "low-border-bg": "var(--color-low-border-bg)",
-        white: "#fff",
+        // highlight
+        "highlight-yellow": "var(--color-highlight-yellow)",
+        "highlight-yellow-light": "var(--color-highlight-yellow-light)",
+
+        // status
+        error: "var(--color-error)",
+        "error-light": "var(--color-error-light)",
+        success: "var(--color-success)",
+        "success-light": "var( --color-success-light)",
       },
     },
   },

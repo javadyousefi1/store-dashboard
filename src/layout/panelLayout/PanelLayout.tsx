@@ -7,7 +7,7 @@ const PanelLayout = () => {
             <div className="flex-1 h-full">
                 <Sidebar />
             </div>
-            <div className="w-full">
+            <div className="w-full bg-color-bg p-8">
                 <Outlet />
             </div>
         </section>
