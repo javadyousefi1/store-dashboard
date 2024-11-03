@@ -6,3 +6,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.test {
+  /* Rectangle 289 */
+
+  position: absolute;
+  width: 53px;
+  height: 48px;
+  left: 0px;
+  /* top: 130px; */
+
+  background: linear-gradient(90deg, #aca9ff 0%, rgba(172, 169, 255, 0) 91.25%);
+  opacity: 0.2;
+  border-radius: 0px 5px 5px 0px;
+}

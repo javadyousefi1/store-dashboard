@@ -5,7 +5,7 @@ import PageHeader from "../../../../components/shared/PageHeader";
 import PageTitle from "../../../../components/shared/PageTitle";
 
 const Home = () => {
- 
+
   return (
     <>
       <PageTitle title="اخبار" />
@@ -14,9 +14,9 @@ const Home = () => {
       />
 
       <div>
-      سلامممممممممممممممممممممممممممممممممممممممممم
-      </div>
-          </>
+        سلاممممممممممممممممممممممممممممممممdwمممممممممم
+      </div>dewdewdwed
+    </>
   );
 };
 

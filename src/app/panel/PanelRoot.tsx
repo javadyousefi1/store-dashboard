@@ -1,8 +1,7 @@
 import { useState } from "react";
 // layout
-import PanelLayout from "../../layout/PanelLayout";
 import SidebarHeader from "./pages/home/SidebarHeader";
-import { mainPanelList } from "./menus";
+import PanelLayout from "@/layout/panelLayout/PanelLayout";
 
 const PanelRoot = () => {
   const [collapsed, setCollapsed] = useState(false);
@@ -14,13 +13,7 @@ const PanelRoot = () => {
 
 
   return (
-    <div>
-      <PanelLayout
-        menuList={mainPanelList}
-        sidebarHeader={sidebarHeaderCmp}
-        handleSetCollapsed={handleSetCollapsed}
-      />
-    </div>
+    <PanelLayout />
   );
 };
 
