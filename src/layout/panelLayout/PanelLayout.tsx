@@ -3,11 +3,11 @@ import Sidebar from "./Sidebar";
 
 const PanelLayout = () => {
     return (
-        <section className="flex justify-between h-screen">
-            <div className="flex-1 h-full">
+        <section className="h-screen">
+            <div className="flex-1 h-full inline-block">
                 <Sidebar />
             </div>
-            <div className="w-full bg-color-bg p-8">
+            <div className="w-[calc(100vw-218px)] bg-color-bg p-8 h-full inline-block">
                 <Outlet />
             </div>
         </section>

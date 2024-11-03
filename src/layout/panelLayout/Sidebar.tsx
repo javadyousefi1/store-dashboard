@@ -2,6 +2,8 @@ import { useLocation } from "react-router-dom";
 import Header from "./Header"
 import MenuTabs from "./MenuTabs";
 import { IconType } from "@/types/icon";
+import UserProfile from "./UserProfile";
+import AddPwa from "./AddPwa";
 
 interface nav {
     title: string,
@@ -21,9 +23,17 @@ const Sidebar = () => {
     ]
 
     return (
-        <aside className="w-[218px] bg-white h-full">
-            <Header />
-            {navList.map((item, index) => <MenuTabs route={item.route} key={`${index}-${item.title}`} title={item.title} icon={item.iconName} inRoute={item.route === pathname} />)}
+        <aside className="w-[80px] md:w-[218px] h-full flex flex-col justify-between">
+            <div>
+                <Header />
+                <div>
+                    {navList.map((item, index) => <MenuTabs route={item.route} key={`${index}-${item.title}`} title={item.title} icon={item.iconName} inRoute={item.route === pathname} />)}
+                </div>
+            </div>
+            <div className="pb-7  px-4">
+                <AddPwa />
+                <UserProfile />
+            </div>
         </aside>);
 }
 

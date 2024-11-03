@@ -13,18 +13,18 @@ interface IMeunTabs {
 
 const MenuTabs: React.FC<IMeunTabs> = ({ title, icon, inRoute, route }) => {
     return (
-        <Link to={route} className="h-[48px] flex justify-start items-center gap-x-2 w-full">
+        <Link to={route} className="h-[48px] flex justify-center md:justify-start items-center gap-x-2 w-full">
             <div className="flex justify-center items-center h-full w-[53px] backdrop-blur-lg relative">
                 <div
                     className={`flex justify-center items-center ${inRoute ? "var(--color-primary)" : "#9a9aa9"}`}
                 >
-                    <IconifyComp color={inRoute ? "var(--color-primary)" : "#9a9aa9"} icon={icon} size="3xl" />
+                    <IconifyComp className="transition linear duration-300" color={inRoute ? "var(--color-primary)" : "#9a9aa9"} icon={icon} size="3xl" />
                 </div>
-                <div className={`test transition linear duration-300 ${inRoute ? "opacity-100" : "opacity-0"}`}></div>
+                <div className={` absolute hidden md:block  h-full w-[48px] transition linear duration-300 test ${inRoute ? "opacity-40" : "opacity-0"}`}></div>
             </div>
             <p
                 key="inactive-title"
-                className={`relative top-[1px] font-semibold ${inRoute ? "text-primary" : "text-[#9a9aa9]"}`}
+                className={`relative hidden md:block top-[1px] font-semibold transition linear duration-300 ${inRoute ? "text-primary" : "text-[#9a9aa9]"}`}
             >
                 {title}
             </p>
