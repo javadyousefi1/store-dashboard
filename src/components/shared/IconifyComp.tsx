@@ -18,7 +18,7 @@ const IconifyComp: React.FC<IProps> = ({
 }) => {
   return (
     <span
-      className={`${icons[icon]} ${iconSize[size]} ${className}`}
+      className={` ${icons[icon]} ${iconSize[size]} ${className}`}
       style={{ color }}
       title={title}
     ></span>
