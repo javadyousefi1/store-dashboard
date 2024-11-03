@@ -18,6 +18,7 @@ const Sidebar = () => {
         { title: "Dashborad", route: "/", iconName: "dashboard" },
         { title: "Users", route: "/users", iconName: "users" },
         { title: "test", route: "/test", iconName: "users" },
+        { title: "analytic", route: "/analytic", iconName: "analytic" },
     ]
 
     return (

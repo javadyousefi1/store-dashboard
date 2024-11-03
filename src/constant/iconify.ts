@@ -94,6 +94,8 @@ export const icons = {
   lightbulb: 'icon-[solar--lightbulb-bolt-outline]',
   playList: 'icon-[solar--playlist-outline]',
   circleDanger: 'icon-[solar--danger-circle-outline]',
+  analytic: 'icon-[solar--chart-square-bold]',
+  boldArrowDown: 'icon-[solar--alt-arrow-down-bold]',
 }
 
 export const iconSize = {
