@@ -56,5 +56,11 @@ export const mainPanelList = [
     label: "تنظیمات",
     href: `/setting`,
   },
+  {
+    key: "5",
+    icon: <IconifyComp icon="setting" size="xl" className="!min-w-5 !min-h-5 !mx-aut1o !p-0 menuIcon-iconify" />,
+    label: "Analytic",
+    href: `/analytic`,
+  },
 ];
 

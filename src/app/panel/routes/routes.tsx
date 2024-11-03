@@ -7,6 +7,7 @@ import PanelRoot from "../PanelRoot";
 import Fallback from "../fallback/Fallback";
 
 const Home = lazy(() => import("../pages/home/Home"));
+const CustomerList = lazy(() => import("../pages/customerList/CustomerList"));
 const NotFound404 = lazy(() => import("../../../components/Notfound404"));
 
 interface SuspenseWrapperProps {
@@ -34,6 +35,7 @@ export const mainPanelRoutes = {
       path: "",
       element: <SuspenseWrapper component={Home} />,
     },
+    { path: "analytic", element: <SuspenseWrapper component={CustomerList} /> },
     { path: "*", element: <SuspenseWrapper component={NotFound404} /> },
   ],
 };

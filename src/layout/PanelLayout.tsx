@@ -161,7 +161,6 @@ const PanelLayout: FC<{
                 style={{
                   padding: "14px 24px",
                   minHeight: 360,
-                  background: "white",
                   borderRadius: borderRadiusLG,
                 }}
               >

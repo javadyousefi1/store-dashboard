@@ -11,7 +11,7 @@ const PageHeader: React.FC<{
   };
 
   return (
-    <div className="flex items-center justify-start pb-3 mb-4 border-b border-gray-200 md:h-[58px] px-4 md:px-0">
+    <div className="flex items-center justify-start pb-3 mb-4 md:h-[58px] px-4 md:px-0">
       {hasBack && (
         <button
           onClick={handleClick}
