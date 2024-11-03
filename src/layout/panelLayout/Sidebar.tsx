@@ -17,6 +17,7 @@ const Sidebar = () => {
     const navList: nav[] = [
         { title: "Dashborad", route: "/", iconName: "dashboard" },
         { title: "Users", route: "/users", iconName: "users" },
+        { title: "test", route: "/test", iconName: "users" },
     ]
 
     return (
