@@ -26,6 +26,9 @@
       "@/*": [
         "src/*"
       ],
+      "@": [
+        "src/"
+      ],
       "api": [
         "src/api/"
       ],
@@ -73,12 +76,6 @@
       ],
     },
   },
-  "include": [
-    "src",
-  ],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
